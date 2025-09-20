@@ -1,0 +1,32 @@
+# Ignore Python cache and virtual environment
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+*.bak
+*.tmp
+
+# Virtual env folders
+env/
+venv/
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore large dataset (full version)
+data/metadata.csv
+
+# Keep sample dataset (important for your app)
+!metadata_sample.csv
+
+# Logs
+*.log
+
+# Streamlit specific
+.streamlit/secrets.toml
