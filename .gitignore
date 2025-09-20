@@ -19,6 +19,12 @@ venv/
 .DS_Store
 Thumbs.db
 
+# Ignore data files
+metadata.csv
+*.pyc
+__pycache__/
+.env/
+venv/
 # Ignore large dataset (full version)
 data/metadata.csv
 
@@ -30,3 +36,5 @@ data/metadata.csv
 
 # Streamlit specific
 .streamlit/secrets.toml
+
+
